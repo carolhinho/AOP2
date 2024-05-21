@@ -1,0 +1,91 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.social-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.social-link i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.social-link.instagram {
+    background-color: #E1306C;
+}
+
+.social-link.instagram:hover {
+    background-color: #C13584;
+}
+
+.social-link.whatsapp {
+    background-color: #25D366;
+}
+
+.social-link.whatsapp:hover {
+    background-color: #1EBE56;
+}
+
+.social-link.tiktok {
+    background-color: #000000;
+}
+
+.social-link.tiktok:hover {
+    background-color: #333333;
+}
+
+.social-link.facebook {
+    background-color: #3b5998;
+}
+
+.social-link.facebook:hover {
+    background-color: #2d4373;
+}
+
+.social-link.youtube {
+    background-color: #c4302b;
+}
+
+.social-link.youtube:hover {
+    background-color: #cc0000;
+}
+
+.social-link.appstore {
+    background-color: #000000;
+}
+
+.social-link.appstore:hover {
+    background-color: #333333;
+}
+
+.social-link.playstore {
+    background-color: #000000;
+}
+
+.social-link.playstore:hover {
+    background-color: #333333;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
